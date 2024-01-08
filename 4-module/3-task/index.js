@@ -3,6 +3,7 @@ function highlight(table) {
 
   for (let row of tBodyRows) {
     let availability = row.cells[3].dataset.available;
+    console.log(availability);
 
     if (availability === "true") {
       row.classList.add("available");
