@@ -101,9 +101,7 @@ export default class Carousel {
         }
       });
 
-      plusButton.addEventListener("product-add", () => {
-        console.log("bravo");
-      });
+      plusButton.addEventListener("product-add", () => {});
     }
   }
 }
