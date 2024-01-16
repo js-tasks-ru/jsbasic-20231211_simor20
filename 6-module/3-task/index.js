@@ -100,10 +100,10 @@ export default class Carousel {
           plusButton.dispatchEvent(addProductEvent);
         }
       });
-    }
 
-    for (let plusButton of plusButtons) {
-      plusButton.addEventListener("product-add", () => {});
+      plusButton.addEventListener("product-add", () => {
+        console.log("bravo");
+      });
     }
   }
 }
